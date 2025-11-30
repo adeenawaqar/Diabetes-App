@@ -4,7 +4,7 @@ import pickle
 import numpy as np
 
 # Load trained SVM model
-with open('./models/svm_rbf.pkl', 'rb') as f:
+with open('svm_rbf.pkl', 'rb') as f:
     model = pickle.load(f)
 
 st.title("Diabetes Prediction Web App")
@@ -33,4 +33,5 @@ if st.button("Predict"):
         st.error("The patient is likely to have diabetes.")
     else:
         st.success("The patient is unlikely to have diabetes.")
+
 
