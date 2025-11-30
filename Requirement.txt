@@ -1,0 +1,7 @@
+1. pandas
+2. scikit-learn
+3. matplotlib
+4. pickle
+5. numpy
+6. streamlit
+
