@@ -3,5 +3,5 @@
 3. matplotlib
 4. numpy
 5. streamlit
-
+6. pickle
 
